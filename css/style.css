@@ -59,6 +59,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     .parallax{
+        position:sticky;
         background-image: url("../media/sheryl.jpeg");
         min-height: 600px; 
         padding-top:10px;
@@ -67,6 +68,14 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
       } 
+
+    .parallax1{
+        position:sticky;
+    }
+
+    .parallax2{
+        position:sticky;
+    }
 
     .picture img{
         display:none;
@@ -84,12 +93,4 @@ body{
         padding-top:2px;
         font-size:2vw;
     }
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 1024px)  {  
-.sp-page-builder .page-content #noparallax {
-    background-attachment: unset !important;
-    background-position: center top !important; }
 }
