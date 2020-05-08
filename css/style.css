@@ -1,0 +1,87 @@
+body{
+    font-family: 'Jost', sans-serif;
+    background-color:white;
+    color:black;
+    text-align:center;
+}
+
+.parallax1 {
+    background-image: url("../media/black.png");
+    min-height: 200px; 
+    padding-top:10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+  }
+
+.parallax2 {
+    background-image: url("../media/black.png");
+    min-height: 90px; 
+    padding-top:10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+  }
+
+.parallax2 h3{
+    padding-top:25px;
+}
+
+.intro{
+    padding-bottom:20px;
+}
+
+#carousel{
+    padding:60px;
+}
+
+#carousel-item{
+    font-style:italic;
+}
+
+#letter{
+    padding-top:10px;
+}
+
+#letter-content{
+    text-align:left;
+}
+
+#contact{
+    padding-top:10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .parallax{
+        background-image: url("../media/sheryl.jpeg");
+        min-height: 600px; 
+        padding-top:10px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      } 
+
+    .picture img{
+        display:none;
+    }
+    #headertxt{
+        font-size:5vw;
+    }
+    #caption{
+        font-size:3vw;
+    }
+    #caption1{
+        font-size:4vw;
+    }
+    #contact{
+        padding-top:2px;
+        font-size:2vw;
+    }
+}
