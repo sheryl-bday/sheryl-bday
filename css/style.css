@@ -60,6 +60,7 @@ body{
 @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */ 
     .picture img{
+        position:fixed;
         height:80%;
         width: 80%;
     }
