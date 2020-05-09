@@ -57,29 +57,27 @@ body{
     padding-top:10px;
 }
 
+@supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */
+    @media only screen and (max-width: 600px) {
+        .parallax{
+            position:sticky;
+            background-image: url("../media/sheryl.jpeg");
+            min-height: 600px; 
+            padding-top:10px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+
+        .picture img{
+            display:none;
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
-    .parallax{
-        position:sticky;
-        background-image: url("../media/sheryl.jpeg");
-        min-height: 600px; 
-        padding-top:10px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      } 
-
-    .parallax1{
-        position:sticky;
-    }
-
-    .parallax2{
-        position:sticky;
-    }
-
-    .picture img{
-        display:none;
-    }
     #headertxt{
         font-size:5vw;
     }
