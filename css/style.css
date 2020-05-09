@@ -61,7 +61,7 @@ body{
     /* CSS specific to iOS devices */ 
     .picture img{
         height:70%;
-        width: auto;
+        width: 100%;
     }
   }
 
